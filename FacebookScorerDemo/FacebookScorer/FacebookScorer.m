@@ -8,7 +8,7 @@
 
 #import "FacebookScorer.h"
 
-static NSString* kAppId = @"226736984067070";
+static NSString* kAppId = @"226736984067070"; // Your Facebook app ID here
 
 #define kAppName        @"Your App's name"
 #define kCustomMessage  @"I just got a score of %d in %@, an iPhone/iPod Touch game by me!"
