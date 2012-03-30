@@ -40,6 +40,7 @@ static FacebookScorer *singletonDelegate = nil;
         
         //_permissions =  [[NSArray arrayWithObjects: @"read_stream", @"publish_stream", @"offline_access",nil] retain];
         //_permissions =  [[NSArray arrayWithObjects: @"read_stream", @"publish_stream", nil] retain];
+        
         _permissions =  [[NSArray arrayWithObjects:@"publish_stream", nil] retain];
         
     }
