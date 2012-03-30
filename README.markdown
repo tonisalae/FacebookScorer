@@ -2,9 +2,7 @@
 
 With FacebookScorer you can post scores for your game on Facebook Wall on user's behalf in a **single line of code**.
 
-<center>
 ![image](http://indiedevstories.files.wordpress.com/2011/08/facebook_post1.png)
-</center>
 
 More about me at [IndieDevStories.com](http://indiedevstories.com)
 

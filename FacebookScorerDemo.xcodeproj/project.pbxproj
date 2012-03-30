@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F4E92EF1525B38D00A98C99 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4E92EE1525B38D00A98C99 /* icon.png */; };
+		6F4E92F21525B38F00A98C99 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F4E92F11525B38F00A98C99 /* icon@2x.png */; };
 		6F5FE8E81525974200CA9B64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5FE8E71525974200CA9B64 /* UIKit.framework */; };
 		6F5FE8EA1525974200CA9B64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5FE8E91525974200CA9B64 /* Foundation.framework */; };
 		6F5FE8EC1525974200CA9B64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5FE8EB1525974200CA9B64 /* CoreGraphics.framework */; };
@@ -31,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F4E92EE1525B38D00A98C99 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		6F4E92F11525B38F00A98C99 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		6F5FE8E31525974200CA9B64 /* FacebookScorerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookScorerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5FE8E71525974200CA9B64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6F5FE8E91525974200CA9B64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,6 +94,8 @@
 		6F5FE8D81525974200CA9B64 = {
 			isa = PBXGroup;
 			children = (
+				6F4E92F11525B38F00A98C99 /* icon@2x.png */,
+				6F4E92EE1525B38D00A98C99 /* icon.png */,
 				6F5FE8ED1525974200CA9B64 /* FacebookScorerDemo */,
 				6F5FE8E61525974200CA9B64 /* Frameworks */,
 				6F5FE8E41525974200CA9B64 /* Products */,
@@ -242,6 +248,8 @@
 				6F5FE8F21525974200CA9B64 /* InfoPlist.strings in Resources */,
 				6F5FE8FE1525974200CA9B64 /* ViewController.xib in Resources */,
 				6F5FE9211525976B00CA9B64 /* FBDialog.bundle in Resources */,
+				6F4E92EF1525B38D00A98C99 /* icon.png in Resources */,
+				6F4E92F21525B38F00A98C99 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +384,7 @@
 				6F5FE9031525974200CA9B64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

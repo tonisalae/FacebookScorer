@@ -8,7 +8,7 @@
 
 #import "FacebookScorer.h"
 
-static NSString* kAppId = @"226736984067070"; // Your Facebook app ID here
+static NSString* kAppId/* = @"000000000000000"*/; // Your Facebook app ID here
 
 #define kAppName        @"Your App's name"
 #define kCustomMessage  @"I just got a score of %d in %@, an iPhone/iPod Touch game by me!"
@@ -27,7 +27,7 @@ static FacebookScorer *singletonDelegate = nil;
 #pragma mark Singleton Methods
 - (id)init {
     if (!kAppId) {
-        NSLog(@"missing app id!");
+        NSLog(@"MISSING APP ID!!!");
         exit(1);
         return nil;
     }
